@@ -4,10 +4,10 @@ using System.IO;
 
 namespace Visual_studio_solutions
 {
-    class Two_sum
+    class TwoSum
     {
 
-        static int[] TwoSum(int[] nums, int target)
+        static int[] TwoSumFunc(int[] nums, int target)
         {
             Dictionary<int, int> dict = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
@@ -33,7 +33,7 @@ namespace Visual_studio_solutions
 
             int[] arr = { 1, 2, 3 };
             var target = 9;
-            int[] result = TwoSum(arr, target);
+            int[] result = TwoSumFunc(arr, target);
 
             Console.WriteLine(result[0] + " " + result[1]);
 
