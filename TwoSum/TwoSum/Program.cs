@@ -7,7 +7,7 @@ namespace TwoSum
     /*
      * Assignment: https://leetcode.com/problems/two-sum/
      */
-    class TwoSum
+    class Program
     {
 
         static int[] TwoSumFunc(int[] nums, int target)
