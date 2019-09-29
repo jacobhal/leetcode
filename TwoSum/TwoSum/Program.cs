@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Visual_studio_solutions
+namespace TwoSum
 {
+    /*
+     * Assignment: https://leetcode.com/problems/two-sum/
+     */
     class TwoSum
     {
 
@@ -19,7 +22,7 @@ namespace Visual_studio_solutions
                 {
                     return new int[] { dict[complement], i };
                 }
-                    
+
                 // Save the current index at position currentNumber
                 dict[currentNumber] = i;
             }
@@ -28,7 +31,7 @@ namespace Visual_studio_solutions
 
         static void Main(string[] args)
         {
-            
+
 
 
             int[] arr = { 1, 2, 3 };
